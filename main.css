@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+}
+
+.container > nav {
+  color: #6070ff;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.nav-item1 {
+  flex-grow: 1;
+}
+
+.nav-item2 {
+  flex-grow: 8;
+}
+
+.nav-item3 {
+  flex-grow: 1;
+}
