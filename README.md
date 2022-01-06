@@ -22,9 +22,6 @@ The basic requirements for building the executable are:
 * VSCode or any other equivalent code editor
 * Node Package Manager (For installing packages like Lighthous, webhint & stylelint used for checking for debugging bad codes before deployment)
 
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
 
 
 ## Getting Started
