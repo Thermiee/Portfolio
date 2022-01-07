@@ -4,7 +4,12 @@
 
 > Building a Portfolio page about myself and my projects
 
-![screenshot](./app_screenshot.png)
+![screenshot](./images/app_screenshot.png)
+![screenshot](./images/app_screenshot1.png)
+![screenshot](./images/app_screenshot2.png)
+![screenshot](./images/app_screenshot3.png)
+![screenshot](./images/app_screenshot4.png)
+
 
 Additional description about the project and its features.
 
