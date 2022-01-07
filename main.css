@@ -313,7 +313,7 @@ li.skillset {
   flex: none;
   order: 3;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 24px 0px;
 }
 
 .button-text {
@@ -342,11 +342,96 @@ button {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 12px;
+  padding: 8px;
   width: 124px;
   height: 48px;
   left: 0px;
   border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
+  margin-left: 12px;
+}
+
+.proj-myself{
+  background: fff;
+  width: 375px;
+ 
+ }
+ 
+ .my-title {
+   display: flex;
+   position: static;
+   width: 327px;
+   height: 10px;
+   left: 0px;
+   top: 0px;
+   padding: 24px;
+   font-family: "Poppins", sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 40px;
+   line-height: 52px;
+   display: flex;
+   align-items: center;
+   color: #172B4D;
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   margin: 12px 0px;
+ }
+
+ .lang {
+  position: static;
+  width: 327px;
+  height: 72px;
+  left: 0px;
+  top: 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+ }
+
+.lang-title {
+  position: absolute;
+  height: 24px;
+  left: 12px;
+  right: 78px;
+  font-family:" Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #000;
+  padding-left: 24px;
+}
+
+.hr {
+  position: absolute;
+height: 1px;
+left: 0px;
+right: 0px;
+bottom: 0px;
+background: #dfe1e6;
+}
+
+.lang-skills {
+  position: static;
+  width: 303px;
+  height: 66.72px;
+  left: 12px;
+  top: 169.43px;
+  background: #f7f7f7F9;
+  border-radius: 8px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 12px 0px;
+  align-items: center;
+}
+
+li.lang-skills {
+  display: flex;
 }
