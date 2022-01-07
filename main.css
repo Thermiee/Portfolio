@@ -4,13 +4,13 @@
 
 .container > nav {
   color: #6070ff;
-  margin: 10px;
+  margin: 10.5px;
   text-align: center;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-size: 18px;
   font-weight: 700;
-  line-height: 20px;
+  line-height: 20.5px;
   width: 375px;
 }
 
@@ -41,17 +41,17 @@
   justify-content: center;
   position: static;
   width: 327px;
-  height: 150px;
+  height: 150.5px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 40.5px;
   line-height: 52px;
   display: flex;
   align-items: center;
   padding-left: 24px;
   padding-top: 66px;
-  margin: 12px 0px;
+  margin: 12px 0.5px;
 }
 
 .box2 {
@@ -60,14 +60,14 @@
   align-items: center;
   color: #172b4d;
   justify-content: center;
-  width: 320px;
+  width: 320.5px;
   height: 146px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  margin: 0px;
+  margin: 0.5px;
 }
 
 .box3 {
@@ -87,15 +87,15 @@
 }
 
 ul.box4 {
-  margin-block-start: 0px;
-  margin-block-end: 0px;
-  padding-inline-start: 0px;
+  margin-block-start: 0.5px;
+  margin-block-end: 0.5px;
+  padding-inline-start: 0.5px;
 }
 
 .social-media {
   align-items: center;
   justify-content: center;
-  height: 20px;
+  height: 20.5px;
   padding-left: 24px;
 }
 
@@ -125,28 +125,28 @@ li.social-media {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 88px 0px;
+  margin: 88px 0.5px;
 }
 
 .project1 {
   position: static;
   width: 295px;
-  height: 220px;
+  height: 220.5px;
   left: 16px;
   top: 16px;
   border-radius: 8px;
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 0.5px;
 }
 
 .title {
   position: static;
   width: 295px;
   height: 36px;
-  left: 0px;
-  top: 0px;
+  left: 0.5px;
+  top: 0.5px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -156,7 +156,7 @@ li.social-media {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 0.5px;
 }
 
 .role {
@@ -168,7 +168,7 @@ li.social-media {
   position: static;
   width: 55px;
   height: 16px;
-  left: 0px;
+  left: 0.5px;
   top: 8px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -179,7 +179,7 @@ li.social-media {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 0px;
+  margin: 0.5px 0.5px;
 }
 
 .role-dot {
@@ -192,14 +192,14 @@ li.social-media {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 12px;
+  margin: 0.5px 12px;
 }
 
 .role-job {
   position: static;
   width: 88px;
   height: 16px;
-  left: 0px;
+  left: 0.5px;
   top: 8px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -210,14 +210,14 @@ li.social-media {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 0px;
+  margin: 0.5px 0.5px;
 }
 
 .role-year {
   position: static;
   width: 29px;
   height: 16px;
-  left: 0px;
+  left: 0.5px;
   top: 8px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -228,14 +228,14 @@ li.social-media {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 0px;
+  margin: 0.5px 0.5px;
 }
 
 .project-details {
   position: static;
   width: 295px;
   height: 76px;
-  left: 0px;
+  left: 0.5px;
   top: 92px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -246,25 +246,25 @@ li.social-media {
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 0.5px;
 }
 
 .skills {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0.5px;
   position: static;
   height: 24px;
-  left: 0px;
-  top: 180px;
+  left: 0.5px;
+  top: 180.5px;
   flex: none;
   order: 2;
   flex-grow: 0;
-  margin: 12px 0px;
-  margin-block-start: 0px;
-  margin-block-end: 0px;
-  padding-inline-start: 0px;
+  margin: 12px 0.5px;
+  margin-block-start: 0.5px;
+  margin-block-end: 0.5px;
+  padding-inline-start: 0.5px;
 }
 
 li.skillset {
@@ -275,14 +275,14 @@ li.skillset {
   position: static;
   width: 53px;
   height: 24px;
-  left: 0px;
-  top: 0px;
+  left: 0.5px;
+  top: 0.5px;
   background: #ebebff;
   border-radius: 8px;
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 8px;
+  margin: 0.5px 8px;
 }
 
 .skillset {
@@ -301,24 +301,24 @@ li.skillset {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 0px;
+  margin: 0.5px 0.5px;
 }
 
 .div-button {
   position: static;
   width: 295px;
   height: 72px;
-  left: 0px;
+  left: 0.5px;
   top: 216px;
   flex: none;
   order: 3;
   flex-grow: 0;
-  margin: 24px 0px;
+  margin: 24px 0.5px;
 }
 
 .button-text {
   position: static;
-  width: 100px;
+  width: 100.5px;
   height: 48px;
   left: 12px;
   top: 12px;
@@ -335,7 +335,7 @@ li.skillset {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 10px;
+  margin: 0.5px 10.5px;
 }
 
 button {
@@ -345,62 +345,60 @@ button {
   padding: 8px;
   width: 124px;
   height: 48px;
-  left: 0px;
+  left: 0.5px;
   border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
   margin-left: 12px;
 }
 
-.proj-myself{
-  background: fff;
+.proj-myself {
+  background: #fff;
   width: 375px;
- 
- }
- 
- .my-title {
-   display: flex;
-   position: static;
-   width: 327px;
-   height: 10px;
-   left: 0px;
-   top: 0px;
-   padding: 24px;
-   font-family: "Poppins", sans-serif;
-   font-style: normal;
-   font-weight: bold;
-   font-size: 40px;
-   line-height: 52px;
-   display: flex;
-   align-items: center;
-   color: #172B4D;
-   flex: none;
-   order: 0;
-   flex-grow: 0;
-   margin: 12px 0px;
- }
+}
 
- .lang {
+.my-title {
+  display: flex;
   position: static;
   width: 327px;
-  height: 72px;
-  left: 0px;
-  top: 0px;
+  height: 10.5px;
+  left: 0.5px;
+  top: 0.5px;
+  padding: 24px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40.5px;
+  line-height: 52px;
+  align-items: center;
+  color: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 0px;
- }
+  margin: 12px 0.5px;
+}
+
+.lang {
+  position: static;
+  width: 327px;
+  height: 72px;
+  left: 0.5px;
+  top: 0.5px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0.5px 0.5px;
+}
 
 .lang-title {
   position: absolute;
   height: 24px;
   left: 12px;
   right: 78px;
-  font-family:" Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 20.5px;
   line-height: 24px;
   display: flex;
   align-items: center;
@@ -410,11 +408,11 @@ button {
 
 .hr {
   position: absolute;
-height: 1px;
-left: 0px;
-right: 0px;
-bottom: 0px;
-background: #dfe1e6;
+  height: 1px;
+  left: 0.5px;
+  right: 0.5px;
+  bottom: 0.5px;
+  background: #dfe1e6;
 }
 
 .lang-skills {
@@ -423,12 +421,12 @@ background: #dfe1e6;
   height: 66.72px;
   left: 12px;
   top: 169.43px;
-  background: #f7f7f7F9;
+  background: #f7f7f9;
   border-radius: 8px;
   flex: none;
   order: 2;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 0.5px;
   align-items: center;
 }
 
