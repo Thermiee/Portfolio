@@ -337,6 +337,11 @@ li.skillset {
   margin: 0 10px;
 }
 
+button:hover {
+  background-color: #396df2;
+  color: #fff;
+}
+
 .proj-myself {
   background: #fff;
   width: 375px;
@@ -432,4 +437,8 @@ li.skillset {
   height: 2px;
   width: 327px;
   background: #dfe1e6;
+}
+
+.proj-cad {
+  display: grid;
 }
