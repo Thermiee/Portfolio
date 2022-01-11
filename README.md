@@ -10,6 +10,7 @@
 ![screenshot](./images/app_screenshot3.png)
 ![screenshot](./images/app_screenshot4.png)
 ![screenshot](./images/app_screenshot5.png)
+![screenshot](./images/app_screenshot6.png)
 
 Additional description about the project and its features.
 
