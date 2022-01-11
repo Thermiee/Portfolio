@@ -72,6 +72,8 @@ npx stylelint "**/*.{css,scss}"
 
 ## 🤝 Contributing
 
+-GitHub: [@githubhandle](https://github.com/Mutalenic)
+
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
