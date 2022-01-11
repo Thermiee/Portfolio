@@ -38,6 +38,9 @@
   background-repeat: no-repeat;
   background-size: 100%;
   width: 375px;
+  height: 650px;
+  border-radius: 0 0 0 100px;
+  border-bottom: 1px solid #cfd8dc;
 }
 
 .box1 {
@@ -389,7 +392,7 @@ button:hover {
   position: absolute;
   height: 24px;
   left: 12px;
-  right: 100px;
+  right: 0;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -432,6 +435,10 @@ button:hover {
   color: #253858;
 }
 
+.langs-list {
+  padding: 5px;
+}
+
 .lang-line {
   display: flex;
   height: 2px;
@@ -443,24 +450,39 @@ button:hover {
   display: grid;
 }
 
+.contact-me {
+  background-color: #6070ff;
+  border: 1px solid #cfd8dc;
+  border-radius: 100px 0 0;
+  width: 372px;
+}
+
+.bg-image {
+  background-image: url(images/shapes.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
 .contact-title {
-font-family: "Poppins", sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 40px;
-line-height: 52px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #b9c50e;
-height: 56px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  height: 56px;
+  justify-content: center;
+  padding-top: 80px;
 }
 
 .contact-text {
   padding-left: 24px;
   display: flex;
   align-items: center;
-  color: #172b4d;
+  color: #fff;
   justify-content: center;
   width: 320.5px;
   height: 146px;
@@ -476,37 +498,37 @@ height: 56px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  }
+  margin: 0 20px;
+}
 
 #username {
-  background: #FFFFFF;
+  background: #fff;
   height: 30px;
   width: 327px;
-left: 16px;
-right: 38px;
-margin: 5px;
-border: 1px solid #CFD8DC;
-border-radius: 8px;
-  }
+  left: 16px;
+  right: 38px;
+  margin: 5px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+}
 
-  #useremail {
-    background: #FFFFFF;
+#useremail {
+  background: #fff;
   height: 30px;
   width: 327px;
-left: 16px;
-right: 38px;
-margin: 5px;
-border: 1px solid #CFD8DC;
-border-radius: 8px;
-  }
+  left: 16px;
+  right: 38px;
+  margin: 5px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+}
 
-  #usermessage {
-    height: 170px;
-width: 327px;
-left: 24px;
-top: 5125px;
-border-radius: 0px;
-margin: 5px;
-border: 1px solid #CFD8DC;
-border-radius: 8px;
-  }
+#usermessage {
+  height: 170px;
+  width: 327px;
+  left: 24px;
+  top: 5125px;
+  margin: 5px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+}
