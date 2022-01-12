@@ -390,6 +390,7 @@ button:hover {
 
 .lang-title {
   position: absolute;
+  width: 327px;
   height: 24px;
   left: 12px;
   right: 0;
@@ -543,3 +544,5 @@ button:hover {
   font-size: 15px;
   color: #b3bac5;
 }
+
+
