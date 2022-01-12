@@ -390,6 +390,7 @@ button:hover {
 
 .lang-title {
   position: absolute;
+  width: 327px;
   height: 24px;
   left: 12px;
   right: 0;
