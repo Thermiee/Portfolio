@@ -646,13 +646,3 @@ button:hover {
   }
   
 }
-
-.box3:hover {
-  background-color: #cccfff;
-  width: 100px;
-  height: 100px;
-  transform: rotate(180deg);
-  }
-  .box3 {
-    transition: width 2s, height 2s, background-color 2s, transform 2s;
-  }
