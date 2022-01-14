@@ -82,6 +82,7 @@ body {
   display: flex;
   align-items: flex-start;
   padding-left: 24px;
+  transition: width 5s, height 5s, background-color 2s, transform 2s;
 }
 
 .box4 {
@@ -644,4 +645,8 @@ button:hover {
     margin: auto;
     width: 50%;
   }
+}
+
+.box3:hover {
+  transform: rotate(180deg);
 }
