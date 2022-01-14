@@ -12,6 +12,9 @@
 ![screenshot](./images/app_screenshot5.png)
 ![screenshot](./images/app_screenshot6.png)
 
+## Live Demo
+
+https://thermiee.github.io/Portfolio/
 
 ## Built With
 - HTML
