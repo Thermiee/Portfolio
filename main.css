@@ -82,7 +82,16 @@ body {
   display: flex;
   align-items: flex-start;
   padding-left: 24px;
+  transition: width 2s, height 5s, background-color 2s, transform 2s;
 }
+
+.box3:hover {
+  background-color: #cccfff;
+  width: 100px;
+  height: 100px;
+  transform: rotate(360deg);
+}
+
 
 .box4 {
   display: flex;
