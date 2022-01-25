@@ -99,7 +99,10 @@ body {
   position: absolute;
   top: 11px;
   right: 5px;
-  font-size: 60px;
+  font-size: 30px;
+  font-weight: normal;
+  border: 2px;
+  filter: blur(unit);
 }
 
 .content {
