@@ -1,323 +1,299 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>My Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-81KZDKHG1W"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
 
-      gtag("config", "G-81KZDKHG1W");
-    </script>
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>My Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-81KZDKHG1W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-  <body>
-    <header>
-      <div class="container">
-        <nav class="nav-item1">My Logo</nav>
-        <div class="nav-item3">
-          <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
-        </div>
-        <nav class="web-nav">
-          <ul class="web-nav-ul">
-            <li class="web-nav-list">
-              <a href="#Portfolio" class="web-nav-link">Portfolio</a>
-            </li>
-            <li class="web-nav-list">
-              <a href="#About" class="web-nav-link">About</a>
-            </li>
-            <li class="web-nav-list">
-              <a href="#Contact" class="web-nav-link">Contact</a>
-            </li>
-          </ul>
-        </nav>
+    gtag("config", "G-81KZDKHG1W");
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav class="nav-item1">My Logo</nav>
+      <div class="nav-item3">
+        <span class="hamburger-span" onclick="openNav()">&#9776; </span>
       </div>
-      <div id="myNav" class="overlay">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <div class="overlay-content">
-    <a href="#Portfolio" onclick="closeNav()">Portfolio</a>
-    <a href="#About"  onclick="closeNav()">About</a>
-    <a href="#Contact"  onclick="closeNav()">Contact</a>
-  </div>
-</div>
-    </header>
+      <nav class="web-nav">
+        <ul class="web-nav-ul">
+          <li class="web-nav-list">
+            <a href="#Portfolio" class="web-nav-link">Portfolio</a>
+          </li>
+          <li class="web-nav-list">
+            <a href="#About" class="web-nav-link">About</a>
+          </li>
+          <li class="web-nav-list">
+            <a href="#Contact" class="web-nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="#Portfolio" onclick="closeNav()">Portfolio</a>
+        <a href="#About" onclick="closeNav()">About</a>
+        <a href="#Contact" onclick="closeNav()">Contact</a>
+      </div>
+    </div>
+  </header>
 
 
-    <section class="content">
-      <h1 class="box1">I’m Emmanuel Glad to see you!</h1>
+  <section class="content">
+    <h1 class="box1">I’m Emmanuel Glad to see you!</h1>
+    <p class="box2">
+      I'm a software developer! I can help you build a product, feature or
+      website Look through some of my work and experience! If you like what
+      you see and have a project you need coded, don't hestiate to contact me.
+    </p>
+    <h3 class="box3">LET'S CONNECT</h3>
+    <ul class="box4">
+      <li class="social-media">
+        <img src="images/twitter.png" alt="twitter" />
+      </li>
+      <li class="social-media">
+        <img src="images/Linkedin.png" alt="Linkedln" />
+      </li>
+      <li class="social-media">
+        <img src="images/m.png" alt="m" />
+      </li>
+      <li class="social-media">
+        <img src="images/github.png" alt="github" />
+      </li>
+      <li class="social-media">
+        <img src="images/fingers.png" alt="two fingers" />
+      </li>
+    </ul>
+  </section>
+  <section class="proj-cad" id="Portfolio">
+    <div class="projects">
+      <div class="project-card">
+        <img src="images/Snapshoot2.png" alt="project1" />
+      </div>
+      <div class="projects-del">
+        <h1 class="title">Tonic</h1>
+        <div class="role">
+          <div class="role-name">Canopy</div>
+          <div class="role-dot"></div>
+          <div class="role-job">Back End Dev</div>
+          <div class="role-dot"></div>
+          <div class="role-year">2015</div>
+        </div>
+
+        <div class="project-details">
+          <p>
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+        </div>
+
+        <ul class="skills">
+          <li class="skillset">html</li>
+          <li class="skillset">css</li>
+          <li class="skillset">javaScript</li>
+        </ul>
+
+        <div class="div-button">
+          <button class="button">See Project</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="projects-rev">
+      <div class="project-card">
+        <img src="images/Snapshoot.png" alt="project1" />
+      </div>
+      <div class="projects-del">
+        <h1 class="title">Multi-Post Stories</h1>
+        <div class="role">
+          <div class="role-name">Canopy</div>
+          <div class="role-dot"></div>
+          <div class="role-job">Back End Dev</div>
+          <div class="role-dot"></div>
+          <div class="role-year">2015</div>
+        </div>
+
+        <div class="project-details">
+          <p>
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+        </div>
+
+        <ul class="skills">
+          <li class="skillset">html</li>
+          <li class="skillset">css</li>
+          <li class="skillset">javaScript</li>
+        </ul>
+
+        <div class="div-button">
+          <button class="button">See Project</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="projects">
+      <div class="project-card">
+        <img src="images/Snapshoot1.png" alt="project1" />
+      </div>
+      <div class="projects-del">
+        <h1 class="title">Tonic</h1>
+        <div class="role">
+          <div class="role-name">Canopy</div>
+          <div class="role-dot"></div>
+          <div class="role-job">Back End Dev</div>
+          <div class="role-dot"></div>
+          <div class="role-year">2015</div>
+        </div>
+
+        <div class="project-details">
+          <p>
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+        </div>
+
+        <ul class="skills">
+          <li class="skillset">html</li>
+          <li class="skillset">css</li>
+          <li class="skillset">javaScript</li>
+        </ul>
+
+        <div class="div-button">
+          <button class="button">See Project</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="projects-rev">
+      <div class="project-card">
+        <img src="images/Snapshoot3.png" alt="project1" />
+      </div>
+      <div class="projects-del">
+        <h1 class="title">Multi-Post Stories</h1>
+        <div class="role">
+          <div class="role-name">Canopy</div>
+          <div class="role-dot"></div>
+          <div class="role-job">Back End Dev</div>
+          <div class="role-dot"></div>
+          <div class="role-year">2015</div>
+        </div>
+
+        <div class="project-details">
+          <p>
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+        </div>
+
+        <ul class="skills">
+          <li class="skillset">html</li>
+          <li class="skillset">css</li>
+          <li class="skillset">javaScript</li>
+        </ul>
+
+        <div class="div-button">
+          <button class="button">See Project</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="proj-myself" id="About">
+    <div class="abt">
+      <h1 class="my-title">About Myself</h1>
       <p class="box2">
         I'm a software developer! I can help you build a product, feature or
         website Look through some of my work and experience! If you like what
-        you see and have a project you need coded, don't hestiate to contact me.
+        you see and have a project you need coded, don't hestiate to contact
+        me.
       </p>
       <h3 class="box3">LET'S CONNECT</h3>
       <ul class="box4">
         <li class="social-media">
-          <img src="images/twitter.png" alt="twitter" />
+          <img src="images/github.png" alt="github" />
         </li>
         <li class="social-media">
           <img src="images/Linkedin.png" alt="Linkedln" />
         </li>
         <li class="social-media">
-          <img src="images/m.png" alt="m" />
-        </li>
-        <li class="social-media">
-          <img src="images/github.png" alt="github" />
-        </li>
-        <li class="social-media">
           <img src="images/fingers.png" alt="two fingers" />
         </li>
+        <li class="social-media">
+          <img src="images/twitter.png" alt="twitter" />
+        </li>
+
+        <li class="social-media">
+          <img src="images/m.png" alt="m" />
+        </li>
       </ul>
-    </section>
-    <section class="proj-cad" id="Portfolio">
-      <div class="projects">
-        <div class="project-card">
-          <img src="images/Snapshoot2.png" alt="project1" />
-        </div>
-        <div class="projects-del">
-          <h1 class="title">Tonic</h1>
-          <div class="role">
-            <div class="role-name">Canopy</div>
-            <div class="role-dot"></div>
-            <div class="role-job">Back End Dev</div>
-            <div class="role-dot"></div>
-            <div class="role-year">2015</div>
-          </div>
-
-          <div class="project-details">
-            <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
-          </div>
-
-          <ul class="skills">
-            <li class="skillset">html</li>
-            <li class="skillset">css</li>
-            <li class="skillset">javaScript</li>
-          </ul>
-
-          <div class="div-button">
-            <button class="button">See Project</button>
-          </div>
-        </div>
+      <div class="div-button2">
+        <button class="button">Get my resume</button>
       </div>
-
-      <div class="projects-rev">
-        <div class="project-card">
-          <img src="images/Snapshoot.png" alt="project1" />
+    </div>
+    <div class="abt-skills">
+      <ul class="langs-list">
+        <li class="lang">
+          <p>Languages</p>
+          <img class="imglang-title" src="images/arrow-down.png" alt="" />
+        </li>
+        <li class="lang-skills">
+          <img src="images/js.png" alt="js" />
+          <p>JavaScript</p>
+        </li>
+        <li class="lang-skills">
+          <img src="images/html.png" alt="html" />
+          <p>HTML</p>
+        </li>
+        <li class="lang-skills">
+          <img src="images/css.png" alt="css" />
+          <p>CSS</p>
+        </li>
+        <li class="lang">
+          <p>FrameWorks</p>
+          <img class="imglang-title" src="images/arrow-side.png" alt="" />
+        </li>
+        <li class="lang-line"></li>
+        <li class="lang">
+          <p>Skills</p>
+          <img class="imglang-title" src="images/arrow-side.png" alt="" />
+        </li>
+        <li class="lang-line"></li>
+      </ul>
+    </div>
+  </section>
+  <section class="contact-me" id="Contact">
+    <div class="bg-image">
+      <h1 class="contact-title">Contact me</h1>
+      <p class="contact-text">
+        If you have an application you are interested in developing, a feature
+        that you need built or a project that needs coding. I’d love to help
+        with it
+      </p>
+      <form action="https://formspree.io/f/xzbodpro" method="post" class="contact-form">
+        <input type="text" name="name" id="username" placeholder="Your Name" maxlength="30" required />
+        <input type="email" name="email" id="useremail" placeholder="Your Email" required />
+        <textarea name="message" id="usermessage" cols="30" rows="10" maxlength="500"
+          placeholder="Write your message here"></textarea>
+        <div class="div-button">
+          <button class="button" type="submit">Get in touch</button>
         </div>
-        <div class="projects-del">
-          <h1 class="title">Multi-Post Stories</h1>
-          <div class="role">
-            <div class="role-name">Canopy</div>
-            <div class="role-dot"></div>
-            <div class="role-job">Back End Dev</div>
-            <div class="role-dot"></div>
-            <div class="role-year">2015</div>
-          </div>
+      </form>
+    </div>
+  </section>
 
-          <div class="project-details">
-            <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
-          </div>
+  <script src="main.js"></script>
+</body>
 
-          <ul class="skills">
-            <li class="skillset">html</li>
-            <li class="skillset">css</li>
-            <li class="skillset">javaScript</li>
-          </ul>
-
-          <div class="div-button">
-            <button class="button">See Project</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="projects">
-        <div class="project-card">
-          <img src="images/Snapshoot1.png" alt="project1" />
-        </div>
-        <div class="projects-del">
-          <h1 class="title">Tonic</h1>
-          <div class="role">
-            <div class="role-name">Canopy</div>
-            <div class="role-dot"></div>
-            <div class="role-job">Back End Dev</div>
-            <div class="role-dot"></div>
-            <div class="role-year">2015</div>
-          </div>
-
-          <div class="project-details">
-            <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
-          </div>
-
-          <ul class="skills">
-            <li class="skillset">html</li>
-            <li class="skillset">css</li>
-            <li class="skillset">javaScript</li>
-          </ul>
-
-          <div class="div-button">
-            <button class="button">See Project</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="projects-rev">
-        <div class="project-card">
-          <img src="images/Snapshoot3.png" alt="project1" />
-        </div>
-        <div class="projects-del">
-          <h1 class="title">Multi-Post Stories</h1>
-          <div class="role">
-            <div class="role-name">Canopy</div>
-            <div class="role-dot"></div>
-            <div class="role-job">Back End Dev</div>
-            <div class="role-dot"></div>
-            <div class="role-year">2015</div>
-          </div>
-
-          <div class="project-details">
-            <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
-          </div>
-
-          <ul class="skills">
-            <li class="skillset">html</li>
-            <li class="skillset">css</li>
-            <li class="skillset">javaScript</li>
-          </ul>
-
-          <div class="div-button">
-            <button class="button">See Project</button>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="proj-myself" id="About">
-      <div class="abt">
-        <h1 class="my-title">About Myself</h1>
-        <p class="box2">
-          I'm a software developer! I can help you build a product, feature or
-          website Look through some of my work and experience! If you like what
-          you see and have a project you need coded, don't hestiate to contact
-          me.
-        </p>
-        <h3 class="box3">LET'S CONNECT</h3>
-        <ul class="box4">
-          <li class="social-media">
-            <img src="images/github.png" alt="github" />
-          </li>
-          <li class="social-media">
-            <img src="images/Linkedin.png" alt="Linkedln" />
-          </li>
-          <li class="social-media">
-            <img src="images/fingers.png" alt="two fingers" />
-          </li>
-          <li class="social-media">
-            <img src="images/twitter.png" alt="twitter" />
-          </li>
-
-          <li class="social-media">
-            <img src="images/m.png" alt="m" />
-          </li>
-        </ul>
-        <div class="div-button2">
-          <button class="button">Get my resume</button>
-        </div>
-      </div>
-      <div class="abt-skills">
-        <ul class="langs-list">
-          <li class="lang">
-            <p>Languages</p>
-            <img class="imglang-title" src="images/arrow-down.png" alt="" />
-          </li>
-          <li class="lang-skills">
-            <img src="images/js.png" alt="js" />
-            <p>JavaScript</p>
-          </li>
-          <li class="lang-skills">
-            <img src="images/html.png" alt="html" />
-            <p>HTML</p>
-          </li>
-          <li class="lang-skills">
-            <img src="images/css.png" alt="css" />
-            <p>CSS</p>
-          </li>
-          <li class="lang">
-            <p>FrameWorks</p>
-            <img class="imglang-title" src="images/arrow-side.png" alt="" />
-          </li>
-          <li class="lang-line"></li>
-          <li class="lang">
-            <p>Skills</p>
-            <img class="imglang-title" src="images/arrow-side.png" alt="" />
-          </li>
-          <li class="lang-line"></li>
-        </ul>
-      </div>
-    </section>
-    <section class="contact-me" id="Contact">
-      <div class="bg-image">
-        <h1 class="contact-title">Contact me</h1>
-        <p class="contact-text">
-          If you have an application you are interested in developing, a feature
-          that you need built or a project that needs coding. I’d love to help
-          with it
-        </p>
-        <form
-          action="https://formspree.io/f/xzbodpro"
-          method="post"
-          class="contact-form"
-        >
-          <input
-            type="text"
-            name="name"
-            id="username"
-            placeholder="Your Name"
-            maxlength="30"
-            required
-          />
-          <input
-            type="email"
-            name="email"
-            id="useremail"
-            placeholder="Your Email"
-            required
-          />
-          <textarea
-            name="message"
-            id="usermessage"
-            cols="30"
-            rows="10"
-            maxlength="500"
-            placeholder="Write your message here"
-          ></textarea>
-          <div class="div-button">
-            <button class="button" type="submit">Get in touch</button>
-          </div>
-        </form>
-      </div>
-    </section>
-
-    <script src="main.js"></script>
-  </body>
 </html>
