@@ -25,13 +25,8 @@
     <header>
       <div class="container">
         <nav class="nav-item1">My Logo</nav>
-        <!-- <nav class="nav-item3">
-                <img src="images/toggle.png" alt="toggle">
-            </nav> -->
         <div class="nav-item3">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
+          <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
         </div>
         <nav class="web-nav">
           <ul class="web-nav-ul">
@@ -47,7 +42,17 @@
           </ul>
         </nav>
       </div>
+      <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#Portfolio" onclick="closeNav()">Portfolio</a>
+    <a href="#About"  onclick="closeNav()">About</a>
+    <a href="#Contact"  onclick="closeNav()">Contact</a>
+  </div>
+</div>
     </header>
+
+
     <section class="content">
       <h1 class="box1">I’m Emmanuel Glad to see you!</h1>
       <p class="box2">
@@ -74,7 +79,7 @@
         </li>
       </ul>
     </section>
-    <section class="proj-cad" id="Porfolio">
+    <section class="proj-cad" id="Portfolio">
       <div class="projects">
         <div class="project-card">
           <img src="images/Snapshoot2.png" alt="project1" />

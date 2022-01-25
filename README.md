@@ -13,9 +13,11 @@ https://thermiee.github.io/Portfolio/
 ## Built With
 - HTML
 - CSS
+- JS
 - Lighthouse (An open-source, automated tool for improving the quality of web pages. It has audits for performance, accessibility, progressive web apps, SEO and more).
 - Webhint (A customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more by checking your code for best practices and common errors).
 - Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
+- ESLint
 
 To get a local copy up and running follow these simple example steps.
 
@@ -59,6 +61,16 @@ npx stylelint "**/*.{css,scss}"
 ```
 ##### from parent source directory
 
+## Getting packages and debuging with Stylelint
+```
+npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
+```
+##### For validation detection using Stylelint Run
+```
+npx eslint .
+```
+##### from parent source directory
+
 
 
 ## Authors
@@ -70,6 +82,7 @@ npx stylelint "**/*.{css,scss}"
 ## 🤝 Contributing
 
 -GitHub: [@Mutalenic](https://github.com/Mutalenic)
+-GitHub: [@Joseph](https://github.com/joseph07-drack)
 
 Contributions, issues, and feature requests are welcome!
 
