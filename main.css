@@ -102,7 +102,6 @@ body {
   font-size: 30px;
   font-weight: normal;
   border: 2px;
-  filter: blur(unit);
 }
 
 .content {
