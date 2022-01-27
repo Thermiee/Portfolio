@@ -129,9 +129,9 @@ for (let i = 0; i < projectsList.length; i += 1) {
 
     document.querySelector('.work__sections').classList.add('blur');
     document.querySelector('.header').classList.add('blur');
-    document.querySelector('.showcase').classList.add('blur');
-    document.querySelector('.contact-form').classList.add('blur');
-    document.querySelector('.about-me').classList.add('blur');
+    document.querySelector('.content').classList.add('blur');
+    document.querySelector('.proj-myself').classList.add('blur');
+    document.querySelector('.contact-me').classList.add('blur');
     modalContainer.classList.add('show');
   });
 }
