@@ -13,3 +13,15 @@ document.querySelectorAll('.pop-nav').forEach((link) => {
     document.getElementById('myNav').style.display = 'none';
   });
 });
+
+const email = document.querySelector('#useremail');
+const validationAlert = document.querySelector('.alert');
+const contactForm = document.querySelector('.contact-form');
+contactForm.addEventListener('submit', (event) => {
+  const regex = /[A-Z]/;
+  const emailContent = email.value;
+  if (regex.test(emailContent)) {
+    validationAlert.innerHTML = 'Your email address should not contain uppercase letters';
+    event.preventDefault();
+  }
+});

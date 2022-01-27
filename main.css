@@ -339,6 +339,7 @@ li.social-media {
   flex: none;
   order: 2;
   flex-grow: 0;
+  justify-content: flex-start;
 }
 
 li.skillset {
@@ -356,7 +357,7 @@ li.skillset {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0.5px 8px;
+  margin: 0.5px 6px;
 }
 
 .skillset {
@@ -489,6 +490,10 @@ button:hover {
   border-radius: 100px 0 0;
 }
 
+.validatonAlert {
+  color: red;
+}
+
 .bg-image {
   background-image: url(images/shapes.png);
   background-repeat: no-repeat;
@@ -531,32 +536,31 @@ button:hover {
   flex-direction: column;
   flex-wrap: wrap;
   margin: 0 8px;
+  align-items: center;
 }
 
 #username {
   background: #fff;
   height: 48px;
-  left: 16px;
-  right: 38px;
   margin: 5px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   padding-left: 16px;
   font-size: 21px;
   color: #172b4d;
+  width: 60%;
 }
 
 #useremail {
   background: #fff;
   height: 48px;
-  left: 16px;
-  right: 38px;
   margin: 5px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   padding-left: 16px;
   font-size: 21px;
   color: #172b4d;
+  width: 60%;
 }
 
 #usermessage {
@@ -567,8 +571,9 @@ button:hover {
   border-radius: 8px;
   padding-top: 15px;
   padding-left: 16px;
-  font-size: 15.3px;
-  color: #b3bac5;
+  font-size: 21px;
+  color: #172b4d;
+  width: 60%;
 }
 
 @media screen and (min-width: 992px) {
@@ -729,4 +734,69 @@ button:hover {
     margin: auto;
     width: 50%;
   }
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(193, 199, 208, 0.7);
+}
+
+.modal-content {
+  position: relative;
+  background-color: #fff;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 90%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.close {
+  color: #172b4d;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #172b4d;
+  text-decoration: none;
+  cursor: pointer;
 }
