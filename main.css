@@ -491,7 +491,7 @@ button:hover {
 }
 
 .validatonAlert {
-	color: red;
+  color: red;
 }
 
 .bg-image {
@@ -800,4 +800,3 @@ button:hover {
   text-decoration: none;
   cursor: pointer;
 }
-
