@@ -490,6 +490,10 @@ button:hover {
   border-radius: 100px 0 0;
 }
 
+.validatonAlert {
+	color: red;
+}
+
 .bg-image {
   background-image: url(images/shapes.png);
   background-repeat: no-repeat;
