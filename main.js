@@ -138,3 +138,20 @@ document.querySelector('.closeModal').addEventListener('click', () => {
   document.querySelector('.header').classList.remove('blur');
   document.querySelector('.showcase').classList.remove('blur');
 });
+
+// add information in the browser local storage
+const nameField = document.querySelector('#name');
+const emailAddressField = document.querySelector('#email');
+const messageField = document.querySelector('#message');
+
+contactForm.addEventListener('input', () => {
+	//add information in the local storage
+	const userData = {
+			name : nameField.value, 
+			emailAddress : emailAddressField.value, 
+			message : messageField.value
+		}
+
+	// store information in the local storage	
+	localStorage.setItem('userData', JSON.stringify(userData));
+})
