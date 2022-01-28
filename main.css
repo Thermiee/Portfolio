@@ -516,7 +516,7 @@ button:hover {
   width: 60%;
 }
 
-.modelContainer {
+.modal-example {
   display: none;
   flex-direction: column;
   background: #fff;
@@ -531,107 +531,24 @@ button:hover {
   left: 0;
   right: 0;
   bottom: 10px;
-  object-fit: contain;
+  color: red;
 }
 
-@keyframes smoth-effet-open {
-  from {
-    transform: scale(0);
-  }
-
-  to {
-    transform: scale(1);
-  }
-}
-
-.modelContainer.show {
+.modal-example.show {
   display: flex;
-  z-index: 100;
 }
 
-.closeModal {
-  animation: smoth-effet-close 0.7s;
+.modal-example img {
+  width: 100%;
 }
 
-@keyframes smoth-effet-close {
-  from {
-    transform: scale(0);
-  }
-
-  to {
-    transform: scale(1);
-  }
-}
-
-.modal__headMain {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.modal__headMain h1 {
-  font-weight: 600;
-  margin-bottom: -10px;
-  font-size: 1rem;
-}
-
-.modelContainer .desc {
-  display: none;
-}
-
-.modal__headMain .closeModal {
+.modal-example .closeModal {
   font-size: 2rem;
   color: #67798e;
   border: none;
   outline: none;
   background: none;
   padding: 15px;
-}
-
-.see-project-buttons {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.project__lang {
-  display: flex;
-}
-
-.modelContainer .project__lang * {
-  margin: 5px 5px 12px 0;
-  background: #ebebff;
-  font-size: 12px;
-  color: #6070ff;
-  font-weight: 400;
-  border-radius: 15px;
-  padding: 1px;
-}
-
-.modal-btn {
-  font-size: 17px;
-  line-height: 24px;
-  text-align: center;
-  padding: 8px;
-  border-radius: 8px;
-  background: #fff;
-  border: 2px #6070ff solid;
-  outline: none;
-  color: #6070ff;
-  font-weight: 600;
-  margin-right: 5px;
-  margin-top: 0;
-}
-
-.modal-btn i {
-  font-size: 20px;
-  color: #6070ff;
-  font-weight: 600;
-}
-
-.modal__body p {
-  font-size: 0.8rem;
-  color: #1d3050;
 }
 
 @media screen and (min-width: 992px) {

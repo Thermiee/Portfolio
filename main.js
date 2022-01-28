@@ -26,14 +26,18 @@ contactForm.addEventListener('submit', (event) => {
   }
 });
 
-const modelContainer = document.querySelector('.modelContainer');
-const project = document.querySelector('.name');
-const company = document.querySelector('.company');
-const role = document.querySelector('.role');
-const year = document.querySelector('.year');
-const imageLink = document.querySelector('.image');
+// const project = document.querySelector('.name');
+// const company = document.querySelector('.company');
+// const role = document.querySelector('.role');
+// const year = document.querySelector('.year');
+// const imageLink = document.querySelector('.image');
 const modalContainer = document.querySelector('.modelContainer');
 const workSections = document.querySelector('.work__sections');
+
+const modal = document.querySelector('.modal-example')
+const modalImg = document.querySelector('.modal-img')
+const company = document.querySelector('.company')
+const role = document.querySelector('.role')
 
 const projectsList = [
   {
@@ -121,22 +125,20 @@ for (let i = 0; i < projectsList.length; i += 1) {
 
 for (let i = 0; i < projectsList.length; i += 1) {
   document.querySelector(`.project-modal-${i}`).addEventListener('click', () => {
-    project.innerHTML = projectsList[i].name;
-    imageLink.src = projectsList[i].imageLink;
+    modalImg.src = projectsList[i].imageLink
+    company.innerHTML = projectsList[i].company
     role.innerHTML = projectsList[i].role;
-    company.innerHTML = projectsList[i].company;
-    year.innerHTML = projectsList[i].year;
 
     document.querySelector('.work__sections').classList.add('blur');
     document.querySelector('.header').classList.add('blur');
     document.querySelector('.content').classList.add('blur');
     document.querySelector('.proj-myself').classList.add('blur');
     document.querySelector('.contact-me').classList.add('blur');
-    modalContainer.classList.add('show');
+    modal.classList.add('show');
   });
 }
 document.querySelector('.closeModal').addEventListener('click', () => {
-  modelContainer.style.display = 'none';
+  modal.style.display = 'none';
   window.location.reload();
   document.querySelector('.header').classList.remove('blur');
   document.querySelector('.showcase').classList.remove('blur');
