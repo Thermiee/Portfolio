@@ -32,6 +32,7 @@ const modal = document.querySelector('.modal-example');
 const modalImg = document.querySelector('.modal-img');
 const company = document.querySelector('.company');
 const role = document.querySelector('.role');
+const year = document.querySelector('.year');
 
 const projectsList = [
   {
@@ -123,6 +124,7 @@ for (let i = 0; i < projectsList.length; i += 1) {
     modalImg.src = projectsList[i].imageLink;
     company.innerHTML = projectsList[i].company;
     role.innerHTML = projectsList[i].role;
+    year.innerHTML = projectsList[i].year;
 
     document.querySelector('.work__sections').classList.add('blur');
     document.querySelector('.header').classList.add('blur');
