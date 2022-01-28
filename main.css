@@ -230,7 +230,6 @@ li.social-media {
   margin: 50px auto;
 }
 
-
 .work__description {
   display: flex;
   flex-direction: column;
@@ -669,47 +668,46 @@ button:hover {
     margin: auto;
     width: 50%;
   }
+
   .modelContainer {
-  width: 50%;
-  min-height: 40%;
-  overflow: auto;
-  padding-bottom: 100px;
-}
+    width: 50%;
+    min-height: 40%;
+    overflow: auto;
+    padding-bottom: 100px;
+  }
 
-.modelContainer .description {
-  display: none;
-}
+  .modelContainer .description {
+    display: none;
+  }
 
-.modelContainer p {
-  font-size: 1.1rem;
-  line-height: 30px;
-}
+  .modelContainer p {
+    font-size: 1.1rem;
+    line-height: 30px;
+  }
 
-.modelContainer .desc {
-  display: block;
-  max-width: 650px;
-}
+  .modelContainer .desc {
+    display: block;
+    max-width: 650px;
+  }
 
-.see-project-buttons {
-  margin-left: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2px;
-  width: 260px;
-  margin-top: 20px;
-}
+  .see-project-buttons {
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+    width: 260px;
+    margin-top: 20px;
+  }
 
-.modelContainer .short_desc {
-  font-size: 30px;
-}
+  .modelContainer .short_desc {
+    font-size: 30px;
+  }
 
-.modelContainer .project-desc {
-  display: flex;
-  justify-content: space-between;
-}
-
-
+  .modelContainer .project-desc {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .modal {
@@ -776,4 +774,3 @@ button:hover {
   text-decoration: none;
   cursor: pointer;
 }
-
