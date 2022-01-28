@@ -26,18 +26,12 @@ contactForm.addEventListener('submit', (event) => {
   }
 });
 
-// const project = document.querySelector('.name');
-// const company = document.querySelector('.company');
-// const role = document.querySelector('.role');
-// const year = document.querySelector('.year');
-// const imageLink = document.querySelector('.image');
-const modalContainer = document.querySelector('.modelContainer');
+const projectname = document.querySelector('.projectname');
 const workSections = document.querySelector('.work__sections');
-
-const modal = document.querySelector('.modal-example')
-const modalImg = document.querySelector('.modal-img')
-const company = document.querySelector('.company')
-const role = document.querySelector('.role')
+const modal = document.querySelector('.modal-example');
+const modalImg = document.querySelector('.modal-img');
+const company = document.querySelector('.company');
+const role = document.querySelector('.role');
 
 const projectsList = [
   {
@@ -74,7 +68,7 @@ const projectsList = [
     demoLink: 'https://thermiee.github.io/Portofolio/',
   },
   {
-    name: 'Uber Navigattion',
+    name: 'Uber Navigation',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     imageLink: 'images/Snapshoot3.png',
     technologies: ['html', 'css', 'javascript'],
@@ -125,8 +119,9 @@ for (let i = 0; i < projectsList.length; i += 1) {
 
 for (let i = 0; i < projectsList.length; i += 1) {
   document.querySelector(`.project-modal-${i}`).addEventListener('click', () => {
-    modalImg.src = projectsList[i].imageLink
-    company.innerHTML = projectsList[i].company
+    projectname.innerHTML = projectsList[i].name;
+    modalImg.src = projectsList[i].imageLink;
+    company.innerHTML = projectsList[i].company;
     role.innerHTML = projectsList[i].role;
 
     document.querySelector('.work__sections').classList.add('blur');
