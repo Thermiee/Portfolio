@@ -152,7 +152,7 @@ contactForm.addEventListener('input', () => {
     message: messageField.value,
   };
 });
-const userDataFromLocalStorage = JSON.parse(localStorage.getItem('userData'));
+const userDataFromLocalStorage = JSON(localStorage.getItem('userData'));
 nameField.value = userDataFromLocalStorage.name;
 emailAddressField.value = userDataFromLocalStorage.email;
 messageField.value = userDataFromLocalStorage.message;
