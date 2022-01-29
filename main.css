@@ -534,7 +534,7 @@ button:hover {
 }
 
 .modal-example img {
-  width: 90%;
+  width: 66%;
   padding-left: 5%;
 }
 
@@ -552,6 +552,32 @@ button:hover {
     margin-left: auto;
     align-items: center;
     justify-content: center;
+  }
+
+  .modal-example {
+    width: 60%;
+    padding: 2%;
+  }
+
+  .modal-example.show {
+    right: 0;
+    max-width: 100%;
+    bottom: 0;
+    max-height: 608px;
+    transform: translate(-10%, 0%);
+  }
+
+  .modal__body {
+      overflow-y: auto;
+  }
+  
+  .modal-img {
+    max-height: 400px;
+    max-width: 60%;
+  }
+
+  .desc {
+    width: 60%;
   }
 
   nav.nav-item1 {
