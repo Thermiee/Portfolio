@@ -75,7 +75,7 @@ const projectsList = [
     technologies: ['html', 'css', 'javascript'],
     role: 'Lead developer',
     company: 'Uber',
-    year: '2015',
+    year: '2018',
     sourceLink: 'https://github.com/thermiee/Portofolio/',
     demoLink: 'https://thermiee.github.io/Portofolio/',
   },
