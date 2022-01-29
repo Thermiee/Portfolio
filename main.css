@@ -568,9 +568,9 @@ button:hover {
   }
 
   .modal__body {
-      overflow-y: auto;
+    overflow-y: auto;
   }
-  
+
   .modal-img {
     max-height: 400px;
     max-width: 60%;
