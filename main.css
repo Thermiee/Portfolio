@@ -219,6 +219,7 @@ li.social-media {
 .work__description {
   display: flex;
   flex-direction: column;
+  padding-left: 3%;
 }
 
 .work__description .long_desc {
