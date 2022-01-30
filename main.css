@@ -702,18 +702,18 @@ button:hover {
   }
 
   .works img {
-    width: 40%;
     padding-right: 4%;
   }
 
   .works__image {
-    display: contents;
+    display: flex;
+    width: 40%;
   }
 
   .works {
     display: flex;
     align-items: normal;
-    justify-content: center;
+    justify-content: space-around;
     margin: 5%;
   }
 }
