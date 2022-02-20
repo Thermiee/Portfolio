@@ -18,26 +18,6 @@ body {
   align-items: center;
 }
 
-.bar {
-  display: block;
-  width: 30px;
-  height: 5px;
-  background-color: #6070ff;
-  margin: 5px auto;
-  transition: all 0.3s ease-in-out;
-}
-
-.nav-item3.active .bar:nth-child(2) {
-  opacity: 0;
-}
-
-.nav-item3.active .bar:nth-child(1) {
-  transform: translateY(10px) rotate(45deg);
-}
-
-.nav-item3.active .bar:nth-child(3) {
-  transform: translateY(-10px) rotate(-45deg);
-}
 
 .web-nav {
   display: none;
@@ -223,7 +203,6 @@ li.social-media {
 }
 
 .work__description .long_desc {
-  font-size: 0.85rem;
   font-weight: 400;
 }
 

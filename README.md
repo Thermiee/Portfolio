@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portifolio
+# Portfolio
 
 > Building a Portfolio page about myself and my projects
 
@@ -25,7 +25,7 @@ To get a local copy up and running follow these simple example steps.
 The basic requirements for building the executable are:
 * A working browser application (Google chrome, Mozilla Fire fox, Microsoft edge ...)
 * VSCode or any other equivalent code editor
-* Node Package Manager (For installing packages like Lighthous, webhint & stylelint used for checking for debugging bad codes before deployment)
+* Node Package Manager (For installing packages like Lighthouse, webhint & stylelint used for checking for debugging bad codes before deployment)
 
 
 
@@ -40,9 +40,10 @@ https://github.com/Thermiee/Portfolio
 
 To get a local copy up and running follow these simple example steps.
 
-## Getting packages and debuging with Webhint
+## Getting packages and debugging with Webhint
 ```
 npm init -y
+
 npm install --save-dev hint@6.x
 ```
 ##### For validation detection using Webhint Run
@@ -51,7 +52,7 @@ npx hint .
 ```
 ##### from parent source directory
 
-## Getting packages and debuging with Stylelint
+## Getting packages and debugging with Stylelint
 ```
 npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
 ```
@@ -61,7 +62,7 @@ npx stylelint "**/*.{css,scss}"
 ```
 ##### from parent source directory
 
-## Getting packages and debuging with Stylelint
+## Getting packages and debugging with Stylelint
 ```
 npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
 ```
