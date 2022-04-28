@@ -34,7 +34,7 @@ The basic requirements for building the executable are:
 
 #### Cloning the project
 ```
-https://github.com/Thermiee/Portfolio
+Live Demo [https://github.com/Thermiee/Portfolio]
 ```
 
 
