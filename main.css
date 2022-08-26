@@ -96,12 +96,13 @@ body {
   border-radius: 0 0 0 100px;
   border-bottom: 1px solid #cfd8dc;
   background-color: #fff;
+  justify-content: center;
 }
 
 .box1 {
   color: #172b4d;
   justify-content: center;
-  width: 300px;
+  width: 85%;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -298,7 +299,6 @@ li.social-media {
   align-items: center;
   background: #fff;
   padding: 7px;
-  top: 12px;
   border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
@@ -308,7 +308,7 @@ li.social-media {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #396df2;
-  margin: 0 10px;
+  margin: 0 20px;
 }
 
 .blur {
