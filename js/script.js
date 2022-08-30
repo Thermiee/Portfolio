@@ -52,14 +52,14 @@ const works = [
     name: 'Smart Brain',
     description: 'A Face recognition Web application',
     imageURL: './images/projects/smart-icon.png',
-    technologies: ['React','Node'],
+    technologies: ['React', 'Node'],
     liveURL: 'https://smart-icon.herokuapp.com',
     sourceURL: 'https://github.com/Thermiee/smart-brain-ui',
     details: {
       organization: 'Freelance',
       role: 'Full Stack Developer',
       year: '2019',
-    }
+    },
   },
   {
     name: 'Football Highlights',
@@ -148,12 +148,12 @@ const frameworks = [
   },
   {
     name: 'MongoDB',
-    icon: './images/frameworks/mongodb.svg'
+    icon: './images/frameworks/mongodb.svg',
   },
   {
     name: 'Node',
-    icon: './images/frameworks/nodejs.svg'
-  }
+    icon: './images/frameworks/nodejs.svg',
+  },
 ];
 
 const skills = [
