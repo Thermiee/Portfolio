@@ -74,6 +74,7 @@ const works = [
       role: 'Full Stack Developer',
       year: '2019',
     },
+    backgroundColor: '#24BEDC',
   },
   {
     name: 'Football Highlights',
@@ -101,7 +102,7 @@ const works = [
       role: 'Front-End Developer',
       year: '2022',
     },
-    backgroundColor: '#faebd7',
+    backgroundColor: '#78b5e2',
   },
   {
     name: 'Space-Travelers-Hub',
