@@ -35,6 +35,20 @@ const works = [
     backgroundColor: '#97bd34',
   },
   {
+    name: 'Anime World',
+    description: 'This is a web application that will return a list of animes and some facts from a provided API',
+    imageURL: './images/projects/animeworld.png',
+    technologies: ['React', 'Redux', 'CSS'],
+    liveURL: 'https://graceful-baklava-ba0862.netlify.app/',
+    sourceURL: 'https://github.com/Thermiee/Anime-World.git',
+    details: {
+      organization: 'Microverse',
+      role: 'Front-End Developer',
+      year: '2022',
+    },
+    backgroundColor: '#548dfe',
+  },
+  {
     name: 'Math Magicians',
     description: 'Math Magicians is a Single Page Application (SPA) created in React that allows users to make simple calculations & Read some famous Math Quotes - with some witty gifs and a fun UI.',
     imageURL: './images/projects/math-magicians.png',
@@ -60,6 +74,7 @@ const works = [
       role: 'Full Stack Developer',
       year: '2019',
     },
+    backgroundColor: '#24BEDC',
   },
   {
     name: 'Football Highlights',
@@ -87,7 +102,7 @@ const works = [
       role: 'Front-End Developer',
       year: '2022',
     },
-    backgroundColor: '#faebd7',
+    backgroundColor: '#78b5e2',
   },
   {
     name: 'Space-Travelers-Hub',
