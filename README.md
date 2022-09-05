@@ -33,11 +33,12 @@ Open index.html in Chrome
 👤 **Emmanuel Jolugbo**
 
 - GitHub: [@Thermiee](https://github.com/thermiee)
+- LinkedIn: [Emmanuel Jolugbo](https://www.linkedin.com/in/emmanuel-jolugbo/)
 
 ## 🤝 Contributing
 
--GitHub: [@Mutalenic](https://github.com/Mutalenic)
--GitHub: [@Joseph](https://github.com/joseph07-drack)
+- GitHub: [@Mutalenic](https://github.com/Mutalenic)
+- GitHub: [@Joseph](https://github.com/joseph07-drack)
 
 Contributions, issues, and feature requests are welcome!
 
