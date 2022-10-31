@@ -8,7 +8,7 @@
 
 ## Live Demo
 
-https://thermiee.github.io/Portfolio/
+[Live Demo](https://thermiee.github.io/Portfolio/)
 
 
 ## Getting Started
