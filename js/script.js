@@ -62,20 +62,20 @@ const works = [
     },
     backgroundColor: '#f5deb3',
   },
-  {
-    name: 'Smart Brain',
-    description: 'A Face recognition Web application',
-    imageURL: './images/projects/smart-icon.png',
-    technologies: ['React', 'Node'],
-    liveURL: 'https://smart-icon.herokuapp.com',
-    sourceURL: 'https://github.com/Thermiee/smart-brain-ui',
-    details: {
-      organization: 'Freelance',
-      role: 'Full Stack Developer',
-      year: '2019',
-    },
-    backgroundColor: '#24BEDC',
-  },
+  // {
+  //   name: 'Smart Brain',
+  //   description: 'A Face recognition Web application',
+  //   imageURL: './images/projects/smart-icon.png',
+  //   technologies: ['React', 'Node'],
+  //   liveURL: 'https://smart-icon.herokuapp.com',
+  //   sourceURL: 'https://github.com/Thermiee/smart-brain-ui',
+  //   details: {
+  //     organization: 'Freelance',
+  //     role: 'Full Stack Developer',
+  //     year: '2019',
+  //   },
+  //   backgroundColor: '#24BEDC',
+  // },
   {
     name: 'Football Highlights',
     description: 'Football Highlist website of recent football matches',
@@ -109,7 +109,7 @@ const works = [
     description: 'The web application provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions using real live data from the SpaceX API.',
     imageURL: './images/projects/spacehub.png',
     technologies: ['React', 'Redux', 'CSS'],
-    liveURL: 'bavon-emmanuel-space-hub.herokuapp.com/',
+    liveURL: 'https://eloquent-sundae-a25728.netlify.app',
     sourceURL: 'https://github.com/Thermiee/space-travelers-hub',
     details: {
       organization: 'Microverse',
